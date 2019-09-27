@@ -12,6 +12,12 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+
+  data () {
+    return {
+      formstate: {}
+    }
   }
 }
 </script>
